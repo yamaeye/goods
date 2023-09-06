@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022.06.16.茶饮.md",
+                "file": "2022.12.16.卷纸.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "de8ea7e6f527ec38",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022.06.16.茶饮.md",
+                "file": "2022.12.16.卷纸.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022.06.16.茶饮.md",
+                "file": "2022.12.16.卷纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022.06.16.茶饮.md"
+                "file": "2022.12.16.卷纸.md"
               }
             }
           },
@@ -174,8 +175,8 @@
   },
   "active": "0569abac36edade3",
   "lastOpenFiles": [
-    "2022.06.16.菊花茶.md",
     "2022.06.16.茶饮.md",
+    "2022.06.16.菊花茶.md",
     "2023.06.01.烧烤酱.md",
     "2023.06.01.牛肉酱.md",
     "2023.06.01.蘑菇酱.md",
