@@ -15,17 +15,23 @@ home_layout: card
 # 导航名称
 menus_title:
   home: 珍珑百宝
+  foods: 饮食
+  daily: 日用
+  technology: 科技
+  categories: 分类
   archive: 归档
-  categories: 专题
   tags: 标签
   links: 传送门
 #  about: 关于
 # 导航 （不建议修改）
 menus:
   home: /
-  archive: /archives
-  categories: /categories
+  foods: /tags/饮食
+  daily: /tags/日用
+  technology: /categories/科技
+  categories: /categories/
   tags: /tags
+  archive: /archives
   links: /links
 #  about: /about
   
@@ -63,11 +69,11 @@ web_analytics:
   baidu: 4b5fe1472f22fadsfs  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
 # 评论 
 gitalk:
-  clientID: 02b3c # （需要替换）GitHub Application Client ID.
-  clientSecret: adfc7b4 #（需要替换）GitHub Application Client Secret.
-  repo: gimment #（需要替换）GitHub repository.
-  owner: duneng #（需要替换）GitHub repository 所有者，可以是个人或者组织。
-  admin: ['duneng'] #（需要替换）GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+  clientID: 65f5a9a1ae635a66fc99 # （需要替换）GitHub Application Client ID.
+  clientSecret: 543e72b1950cdc1b817b3b81fb45f4ac2d442b90 #（需要替换）GitHub Application Client Secret.
+  repo: talks #（需要替换）GitHub repository.
+  owner: yamaeye #（需要替换）GitHub repository 所有者，可以是个人或者组织。
+  admin: ['yamaeye'] #（需要替换）GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
 
 # 底部显示的图标（github 或者其他）
 bottomIcon: 
@@ -86,7 +92,7 @@ linksList:
   - {
     title: 'Sophie Eden Wiki',
     intro: 'wiki',
-    link: 'https://sophie-eden.netlify.app/#/',
+    link: 'https://yamaeye.github.io/docs/#/',
     image: '/img/gate/wiki.jpg'
   }
   - {
@@ -102,8 +108,7 @@ linksList:
     image: '/img/gate/newspaper.jpg'
   }
 
-#默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
+# 默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
 # https://api.ixiaowai.cn/gqapi/gqapi.php
 # https://tuapi.eees.cc/api.php?type=302&category=fengjing
- # default_cover: https://api.ixiaowai.cn/gqapi/gqapi.phps
-default_cover:
+default_cover: https://api.likepoems.com/img/mc/

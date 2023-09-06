@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "c41fcfbc3e96fe39",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d9f853f55d55ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0569abac36edade3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022.06.16.茶饮.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6678eb67e911c3b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3ce8e589d30d7f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "045e19a5951191ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "237dbe3646fc3773",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "bing/?id=",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "07fffd23ec93030a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "752682c71f3b618f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de8ea7e6f527ec38",
+    "type": "split",
+    "children": [
+      {
+        "id": "7eb5b9c0bd0ea4bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02dbe6246c0e20e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022.06.16.茶饮.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "77d37b5655348475",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022.06.16.茶饮.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "07be5a036af6b71a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "878e04a20f9f8a77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022.06.16.茶饮.md"
+              }
+            }
+          },
+          {
+            "id": "5d940db3c9bead34",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "cmdr:拆稿 - H2 标题": false,
+      "cmdr:拆稿 - H3 标题": false,
+      "cmdr:Commander 设置": false,
+      "cmdr:查找坏链": false,
+      "cmdr:查找孤立文件": false,
+      "cmdr:查找空文件": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-spaced-repetition:复习卡片": false
+    }
+  },
+  "active": "0569abac36edade3",
+  "lastOpenFiles": [
+    "2022.06.16.菊花茶.md",
+    "2022.06.16.茶饮.md",
+    "2023.06.01.烧烤酱.md",
+    "2023.06.01.牛肉酱.md",
+    "2023.06.01.蘑菇酱.md",
+    "2023.06.01.辣酱.md",
+    "2023.06.01.酱汁.md",
+    "2023.06.01.酱料.md",
+    "2023.06.01.干碟.md",
+    "2023.06.01.拌饭酱.md",
+    "2023.05.31.新奥尔良腌料.md",
+    "2023.05.31.洗衣液.md",
+    "2023.05.31.洁厕剂.md",
+    "2023.05.30.衣领净.md",
+    "2023.05.30.插排.md",
+    "2023.05.30.路由器.md",
+    "2022.07.14.去渍.md",
+    "2022.12.16.卷纸.md",
+    "2023.04.18.电纸书.md",
+    "2022.12.14.新冠药品清单.md",
+    "2022.12.16.纸抽.md",
+    "2022.12.14.空气净化器.md",
+    "2022.07.14.棉柔巾.md",
+    "2022.07.06.湿巾.md",
+    "2022.11.16.鞋.md",
+    "2022.10.25.去黑头.md",
+    "img/index_img.jpg",
+    "img/index_img_1400x1750.jpg",
+    "img/goods/index_img_1400x1750.jpg",
+    "img/goods/index_img.jpg",
+    "img/index_img_1200x1500.jpg",
+    "img/index_img_1500x1875.jpg",
+    "img/index_img_1600x2000.jpg",
+    "img/index_img_压缩后.jpg",
+    "img/index_img_2000x2500.jpg",
+    "img/index_img_1000x1250.jpg",
+    "img/goods/湿巾",
+    "img/goods",
+    "img/links",
+    "img/cover",
+    "tags",
+    "links",
+    "img/gate",
+    "img/favicon.ico",
+    "img",
+    "categories"
+  ]
+}
