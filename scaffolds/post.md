@@ -3,10 +3,10 @@ title: {{ title }}
 date: {{ date }}
 tags:
 categories: 
-excerpt: 
-toc: true
+toc: false
 cover: 'https://api.likepoems.com/img/bing/?id=10'
 comments: true
 aubot: 
 aubot_link: ''
+excerpt: 
 ---

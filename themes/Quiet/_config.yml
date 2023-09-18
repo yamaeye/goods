@@ -17,7 +17,7 @@ menus_title:
   home: 珍珑百宝
   foods: 饮食
   daily: 日用
-  technology: 科技
+  # technology: 科技
   categories: 分类
   archive: 归档
   tags: 标签
@@ -28,7 +28,7 @@ menus:
   home: /
   foods: /tags/饮食
   daily: /tags/日用
-  technology: /categories/科技
+  # technology: /categories/科技
   categories: /categories/
   tags: /tags
   archive: /archives
