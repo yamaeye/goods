@@ -25,14 +25,14 @@ menus_title:
 #  about: 关于
 # 导航 （不建议修改）
 menus:
-  home: /
-  foods: /tags/饮食
-  daily: /tags/日用
+  home: https://yamaeye.github.io/goods/public/
+  foods: https://yamaeye.github.io/goods/public/tags/饮食
+  daily: https://yamaeye.github.io/goods/public/tags/日用
   # technology: /categories/科技
-  categories: /categories/
-  tags: /tags
-  archive: /archives
-  links: /links
+  categories: https://yamaeye.github.io/goods/public/categories/
+  tags: https://yamaeye.github.io/goods/public/tags
+  archive: https://yamaeye.github.io/goods/public/archives
+  links: https://yamaeye.github.io/goods/public/links
 #  about: /about
   
 # logo
