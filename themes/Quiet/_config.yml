@@ -36,14 +36,14 @@ menus:
 #  about: /about
   
 # logo
-logo: /img/logo.jpg
+logo: https://yamaeye.github.io/goods/public/img/logo.jpg
 # 网页标签上那个小图标 一定要用本地存储
-icon: /img/favicon.ico
+icon: https://yamaeye.github.io/goods/public/img/favicon.ico
 # 每个页面的展示的图标和一句话
 headers:
     home: {
       message: "不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫",
-      icon: "/img/logo.jpg"
+      icon: "https://yamaeye.github.io/goods/public/img/logo.jpg"
     }
     archives: {
       # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
@@ -82,7 +82,7 @@ bottomIcon:
     #描述名称
     name: '阵营入口',
     #图标    
-    iconLink: '/img/gate/city.jpg',
+    iconLink: 'https://yamaeye.github.io/goods/public/img/gate/city.jpg',
     #跳转链接    
     toUrl: 'https://yamaeye.pages.dev/city/public/'
   }
@@ -93,19 +93,19 @@ linksList:
     title: 'Sophie Eden Wiki',
     intro: 'wiki',
     link: 'https://yamaeye.github.io/docs/#/',
-    image: '/img/gate/wiki.jpg'
+    image: 'https://yamaeye.github.io/goods/public/img/gate/wiki.jpg'
   }
   - {
     title: '幻术同盟',
     intro: 'picture',
     link: 'https://sophie-eden.pages.dev/lesson/',
-    image: '/img/gate/picture.jpg'
+    image: 'https://yamaeye.github.io/goods/public/img/gate/picture.jpg'
   }
   - {
     title: '时空回廊',
     intro: 'newspaper',
     link: 'https://yamaeye.pages.dev/newspaper/public/',
-    image: '/img/gate/newspaper.jpg'
+    image: 'https://yamaeye.github.io/goods/public/img/gate/newspaper.jpg'
   }
 
 # 默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
