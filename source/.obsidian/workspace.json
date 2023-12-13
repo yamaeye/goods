@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7fc65cba37f207de",
+            "id": "fa74e3f29f88ec4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023.06.01.烧烤酱.md",
+                "file": "_posts/2023.11.28.拌面.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023.06.01.烧烤酱.md",
+                "file": "_posts/2023.11.28.拌面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023.06.01.烧烤酱.md",
+                "file": "_posts/2023.11.28.拌面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023.06.01.烧烤酱.md"
+                "file": "_posts/2023.11.28.拌面.md"
               }
             }
           },
@@ -157,12 +156,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,36 +171,48 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-spaced-repetition:复习卡片": false
+      "obsidian-spaced-repetition:复习卡片": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "236cd250e838f1df",
+  "active": "fa74e3f29f88ec4d",
   "lastOpenFiles": [
-    "_posts/2023.09.18.投影仪.md",
-    "_posts/2023.06.01.烧烤酱.md",
+    "_posts/2023.11.28.除霉.md",
+    "_posts/2023.11.28.汤面.md",
     "_posts/2023.06.01.牛肉酱.md",
-    "_posts/2023.06.01.蘑菇酱.md",
+    "_posts/2023.11.28.拌面.md",
+    "_posts/2022.07.14.棉柔巾.md",
+    "_posts/2022.06.22.乳制品.md",
+    "_posts/2022.06.17.可可粉.md",
+    "_posts/2022.06.17.乳饮.md",
+    "_posts/2022.06.17.饮料.md",
+    "_posts/2023.05.31.洗衣液.md",
+    "_posts/2023.06.01.干碟.md",
+    "_posts/2023.06.01.烧烤酱.md",
     "_posts/2023.06.01.辣酱.md",
+    "about/index.md",
+    "links/index.md",
+    "_posts/2022.07.14.卫生湿巾.md",
+    "_posts/2023.06.01.拌饭酱.md",
+    "Pasted image 20231128170420.png",
+    "_posts/2023.11.28.拌面-1.md",
+    "_posts/2022.06.22.杂粮.md",
+    "_posts/2022.06.16.茶饮.md",
+    "_posts/2022.06.17.水果茶.md",
+    "_posts/2022.06.18.干果.md",
+    "_posts/2022.06.22.饼干.md",
+    "_posts/2022.06.18.甜品.md",
     "_posts/2023.06.01.酱汁.md",
     "_posts/2023.06.01.酱料.md",
-    "_posts/2023.06.01.干碟.md",
-    "_posts/2023.06.01.拌饭酱.md",
-    "_posts/2023.05.31.新奥尔良腌料.md",
-    "_posts/2023.05.31.洗衣液.md",
-    "_posts/2023.05.31.洁厕剂.md",
-    "_posts/2023.05.30.衣领净.md",
-    "_posts/2022.12.16.纸抽.md",
-    "_posts/2023.05.30.路由器.md",
-    "_posts/2023.05.30.插排.md",
-    "_posts/2023.04.18.电纸书.md",
-    "_posts/2022.12.16.卷纸.md",
-    "_posts/2022.07.14.卫生湿巾.md",
-    "_posts/2022.12.14.新冠药品清单.md",
-    "_posts/2022.12.14.空气净化器.md",
-    "_posts/2022.11.16.鞋.md",
-    "_posts/2022.07.31.蚧壳虫药.md",
-    "_posts/2022.07.14.去渍.md",
-    "_posts/2022.10.25.去黑头.md",
-    "_posts/2022.07.06.湿巾.md"
+    "Pasted image 20231128103801.png",
+    "img/goods/湿巾/碧C.jpg",
+    "img/goods/湿巾/巴布豆.jpg",
+    "img/goods/湿巾/顺顺儿.jpg",
+    "img/goods/湿巾/好孩子.jpg",
+    "img/goods/湿巾/十月结晶湿巾.jpg",
+    "img/goods/湿巾/丸丫婴儿湿巾.jpg",
+    "img/goods/湿巾/贝亲婴儿柔湿巾.jpg",
+    "img/goods/湿巾/babycare.jpg",
+    "img/goods/湿巾"
   ]
 }

@@ -98,13 +98,13 @@ linksList:
   - {
     title: '幻术同盟',
     intro: 'picture',
-    link: 'https://sophie-eden.pages.dev/lesson/',
+    link: 'https://sophie-eden.pages.dev/',
     image: 'https://yamaeye.github.io/goods/public/img/gate/picture.jpg'
   }
   - {
     title: '时空回廊',
     intro: 'newspaper',
-    link: 'https://yamaeye.pages.dev/newspaper/public/',
+    link: 'http://times.sophie-eden.ltd/',
     image: 'https://yamaeye.github.io/goods/public/img/gate/newspaper.jpg'
   }
 
