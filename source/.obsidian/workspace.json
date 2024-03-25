@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023.11.28.拌面.md",
+                "file": "_posts/2024.03.25.火锅蘸料.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea0c4070e1919279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023.11.28.汤面.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d47cc923d1eb46aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024.03.25.腐乳.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023.11.28.拌面.md",
+                "file": "_posts/2023.11.28.汤面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023.11.28.拌面.md",
+                "file": "_posts/2023.11.28.汤面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023.11.28.拌面.md"
+                "file": "_posts/2023.11.28.汤面.md"
               }
             }
           },
@@ -143,7 +168,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -160,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,12 +203,19 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "fa74e3f29f88ec4d",
+  "active": "ea0c4070e1919279",
   "lastOpenFiles": [
-    "_posts/2023.11.28.除霉.md",
+    "_posts/2024.03.25.腐乳.md",
+    "_posts/2024.03.25.花生酱+芝麻酱.md",
+    "_posts/2024.03.25.火锅底料.md",
+    "_posts/2024.03.25.火锅蘸料.md",
+    "_posts/2024.03.25.沙茶酱.md",
+    "_posts/2023.06.01.酱料.md",
     "_posts/2023.11.28.汤面.md",
-    "_posts/2023.06.01.牛肉酱.md",
     "_posts/2023.11.28.拌面.md",
+    "_posts/2023.11.28.除霉.md",
+    "_posts/2023.06.01.烧烤酱.md",
+    "_posts/2023.06.01.牛肉酱.md",
     "_posts/2022.07.14.棉柔巾.md",
     "_posts/2022.06.22.乳制品.md",
     "_posts/2022.06.17.可可粉.md",
@@ -188,7 +223,6 @@
     "_posts/2022.06.17.饮料.md",
     "_posts/2023.05.31.洗衣液.md",
     "_posts/2023.06.01.干碟.md",
-    "_posts/2023.06.01.烧烤酱.md",
     "_posts/2023.06.01.辣酱.md",
     "about/index.md",
     "links/index.md",
@@ -198,12 +232,6 @@
     "_posts/2023.11.28.拌面-1.md",
     "_posts/2022.06.22.杂粮.md",
     "_posts/2022.06.16.茶饮.md",
-    "_posts/2022.06.17.水果茶.md",
-    "_posts/2022.06.18.干果.md",
-    "_posts/2022.06.22.饼干.md",
-    "_posts/2022.06.18.甜品.md",
-    "_posts/2023.06.01.酱汁.md",
-    "_posts/2023.06.01.酱料.md",
     "Pasted image 20231128103801.png",
     "img/goods/湿巾/碧C.jpg",
     "img/goods/湿巾/巴布豆.jpg",
