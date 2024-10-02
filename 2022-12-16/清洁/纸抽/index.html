@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+<title>纸抽-不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="https://goods.sophie-eden.ltd/img/favicon.ico">
+
+<link rel="stylesheet" href="/css/index.css">
+
+
+
+<meta name="keywords" content="日用,">
+<meta name="description" content="">
+
+
+<script src="/js/jquery.min.js"></script>
+
+
+<script src="/js/index.js"></script>
+
+
+<script src="/js/fancybox.umd.js"></script>
+
+
+<script src="/js/fancybox-images.js"></script>
+
+
+<script src="/js/gitalk.min.js"></script>
+
+
+<script src="/js/hljs.min.js"></script>
+ 
+<script>hljs.highlightAll();</script>
+
+	<meta name="generator" content="Hexo 6.3.0"></head>
+
+	<body>
+		
+	<div class="header">
+		<div class="header-top" id="header-top">
+			<div class="h-left">
+				<a href="https://goods.sophie-eden.ltd/">
+					<img src="https://goods.sophie-eden.ltd/img/logo.jpg" alt="Quiet">
+				</a>
+			</div>
+			<div class="h-right">
+				<ul>
+					
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/">
+										珍珑百宝
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/tags/饮食">
+										饮食
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/tags/日用">
+										日用
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/categories/">
+										分类
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/tags">
+										标签
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/archives">
+										归档
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="https://goods.sophie-eden.ltd/links">
+										传送门
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+				</ul>
+			</div>
+			<div class="h-right-close">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+					<path fill="none" d="M0 0h24v24H0z" />
+					<path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" fill="rgba(68,68,68,1)" />
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="sidebar">
+    <div class="topo">
+        <h2>Sophie Eden</h2>
+    </div>
+    <ul>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/">珍珑百宝</a>
+        </li>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/tags/饮食">饮食</a>
+        </li>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/tags/日用">日用</a>
+        </li>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/categories/">分类</a>
+        </li>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/tags">标签</a>
+        </li>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/archives">归档</a>
+        </li>
+        
+        <li>
+            <a href="https://goods.sophie-eden.ltd/links">传送门</a>
+        </li>
+        
+    </ul>
+    <div class="my_foot">
+        
+        <a target="_blank" rel="noopener" href="http://city.sophie-eden.ltd/">
+            <img src="https://goods.sophie-eden.ltd/img/gate/city.jpg" alt="Quiet主题">
+        </a>
+        
+    </div>
+</div>
+<div class='shelter'>
+</div>
+<style>
+    .shelter{
+        background-color: #333;
+        opacity:0.5;
+        cursor: pointer;
+        display: none; 
+        position: fixed;
+        left: 0;
+        top: 0; 
+        right: 0;
+        bottom: 0;
+        z-index: 1998;
+    }
+    .sidebar {
+        width: 66%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        bottom: 0;
+        background: #fff;
+        z-index: 1999;
+        text-align: center;
+        box-shadow: -6px 0 20px rgba(98, 94, 94, .815);
+    }
+
+    .topo {
+        width: 100%;
+        height: 200px;
+        background: url(https://api.ixiaowai.cn/gqapi/gqapi.php) no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        display: flex;
+        align-items: flex-end
+    }
+
+    .topo h2 {
+        color: #fff;
+        z-index: 1;
+        position: relative;
+        margin: 0 0 10px 10px;
+        font-size: 1.2em;
+        box-sizing: border-box
+    }
+
+    .topo:before {
+        content: '';
+        background-image: url(/image/pattern.png);
+        background-repeat: repeat;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1
+    }
+
+    .sidebar ul {
+        width: 100%;
+        margin-top: 50px
+    }
+
+    .sidebar ul li {
+        height: 50px;
+        list-style: none;
+        font-size: 1.2em;
+        text-align: right;
+        margin-right: 10px
+    }
+
+    .sidebar ul li a {
+        display: grid;
+        color: #5d606a;
+        text-overflow: ellipsis;
+        width: 100%;
+        text-decoration: none
+    }
+
+    .my_foot {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0
+    }
+
+    .my_foot a {
+        text-decoration: none;
+        margin-right: 10px;
+        display: inline-block
+    }
+
+    .my_foot a img {
+        width: 30px;
+        height: 30px
+    }
+</style>
+
+<script>
+    $( function () {
+	$( '.h-right-close>svg' )
+		.click( function () {
+			$( '.sidebar' )
+				.animate( {
+					right: "0"
+				}, 500 );
+			$( '.shelter' )
+				.fadeIn( "slow" )
+		} );
+	$( '.shelter' )
+		.click( function ( e ) {
+			$( '.sidebar' )
+				.animate( {
+					right: "-100%"
+				}, 500 );
+			$( '.shelter' )
+				.fadeOut( "slow" )
+		} )
+} )
+
+</script>
+
+<div class="post">
+    <div class="post-header-background post-header-img"
+    style="background: url('https://api.likepoems.com/img/mc/')" 
+>
+    <div class="post-header-background-content">
+        <ul class="post-header-tag">
+            
+            
+            <li><a href="/tags/日用">日用</a></li>
+            
+            
+        </ul>
+        
+        <h1>纸抽</h1>
+        <div class="post-header-info">
+            <div class="post-header-info-author">
+                
+                    <svg t="1604839279282" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="2901" width="20" height="20">
+                        <path
+                            d="M513 956.3c-247.7 0-448-200.3-448-448S265.3 66.2 513 66.2s448 200.3 448 448-200.3 442.1-448 442.1z m0-830.9c-212.2 0-388.8 170.7-388.8 388.8C124.2 726.3 294.9 903 513 903c212.2 0 388.8-170.7 388.8-388.8S725.2 125.4 513 125.4z m0 430.2c-94.2 0-170.7-76.5-170.7-170.7S418.8 207.8 513 207.8s170.7 76.5 170.7 170.7S607.2 555.6 513 555.6z m0-289.1c-64.6 0-112 52.8-112 112s47.4 117.9 112 117.9 112-52.8 112-112-47.4-117.9-112-117.9z m0 689.8c-135.7 0-259-58.7-341.9-158.9l-11.8-17.8 11.8-17.8c76.5-117.9 206.2-188.5 347.8-188.5 135.7 0 265 64.6 341.9 182.6l11.8 17.8-11.8 17.8C778 897.1 648.7 956.3 513 956.3zM230.3 773.2C300.9 849.7 406.9 897 513 897c112 0 218.1-47.4 288.6-129.8-70.5-88.2-170.7-135.6-282.7-135.6s-218.1 53.3-288.6 141.6z"
+                            p-id="2902" fill="#000"></path>
+                    </svg>
+                    
+                <span class="post-header-info-author-text"> <a href="../../about">Sophie Eden</a></span>
+                <div class="post-header-info-author-categories">
+                    
+                         <a href="../../categories/清洁/" target="_blank" >清洁</a>
+                    
+                </div>
+                <p>2022-12-16 16:34:46</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="post-content" id="content">
+  
+  <div id="article" class="post-content-info">
+    
+
+    <span id="more"></span>
+
+<h2 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h2><h3 id="洁柔（C-S）"><a href="#洁柔（C-S）" class="headerlink" title="洁柔（C&amp;S）"></a>洁柔（C&amp;S）</h3><p>中国本土品牌，始于1999年，中顺洁柔是国内首家A股上市的生活用纸企业，是纸巾行业标准起草单位，专业生产和销售中高档生活用纸系列产品的上市企业。洁柔产品特点在于锁水性、轻柔和韧性。</p>
+<h4 id="粉Face"><a href="#粉Face" class="headerlink" title="粉Face"></a>粉Face</h4><p>一面带有颗粒般的质感，一面相对柔和，可以适用不同的需求。<br>质地柔软，舒适度足够，一直擦也不疼。<br>韧性不错，擦手擦脸都不破，比较耐磨，遇水不易破损，也不会沾纸。<br>性价比很高，包装量大实惠。</p>
+<h4 id="黑Face古龙水香"><a href="#黑Face古龙水香" class="headerlink" title="黑Face古龙水香"></a>黑Face古龙水香</h4><p>除了自带古龙水香，纸张本身也柔韧、可湿水。即使在毛毯上来回擦拭，也不会掉屑。</p>
+<h4 id="Lotion柔滑系列"><a href="#Lotion柔滑系列" class="headerlink" title="Lotion柔滑系列"></a>Lotion柔滑系列</h4><p>乳霜纸里的优秀选手，柔软度和坚韧性的配比完美，符合日常用纸的标准，纸质没有什么可以挑出来的毛病。<br>纸巾给人的感觉比较厚实，三层设计赋予了它良好的吸水性。触感好，完全没有干、硬的感觉，吸水和擦东西也不容易破，而且不会掉屑。<br>从柔软度来说，洁柔是比较出色的，但它良好的坚韧性往往让人忽略了这方面。含有保湿因子，摸起来十分柔滑细腻、有种水润感，完全不会觉得粗糙。</p>
+<h3 id="维达"><a href="#维达" class="headerlink" title="维达"></a>维达</h3><p>维达品牌诞生于1985年，致力于满足人们对高品质生活的追求。<br>1989年维达带来了国内鲜见的100%纯进口木浆餐巾纸巾，并开始为中国消费者带来高品质的生活用纸产品。<br>从有芯卷纸发展到覆盖软抽、无芯、湿巾等6大品类，拥有超韧系列、蓝色经典系列等畅销明星系列，其中卫生纸更是取得连续九年销量第一的美誉。</p>
+<h4 id="超韧"><a href="#超韧" class="headerlink" title="超韧"></a>超韧</h4><p>在“韧”上追求卓越表现，精选进口优质原生木浆，超韧细密、湿水不易破，三倍细韧，一抽顶两抽。</p>
+<h4 id="细韧"><a href="#细韧" class="headerlink" title="细韧"></a>细韧</h4><p>材质柔软，兼顾了紧致，细腻，有韧性。<br>价格也是非常亲民，24包120抽只要不到50元。</p>
+<h4 id="棉韧"><a href="#棉韧" class="headerlink" title="棉韧"></a>棉韧</h4><p>立体压纹工艺，内部的凹凸空隙充盈着空气，像一个个微型空气垫。</p>
+<h3 id="心相印"><a href="#心相印" class="headerlink" title="心相印"></a>心相印</h3><h4 id="茶语丝享"><a href="#茶语丝享" class="headerlink" title="茶语丝享"></a>茶语丝享</h4><p>单抽价格约0.017元。量大好用，经济实惠、物美价廉。<br>各项维度均达到合格水平，使用感不错，满足日常普通使用需求。<br>足够柔软韧性也不错，沾上水不会轻易破掉。缺点是柔软度不够，感冒了可不能一直用，老擦鼻子会疼。</p>
+<h4 id="婴儿抽纸"><a href="#婴儿抽纸" class="headerlink" title="婴儿抽纸"></a>婴儿抽纸</h4><p>厚实、柔软、有韧性，手感极好，不掉屑。沾水不起皱，不成坨，不易破。没价格相对小贵。</p>
+<h3 id="得宝（Tempo）"><a href="#得宝（Tempo）" class="headerlink" title="得宝（Tempo）"></a>得宝（Tempo）</h3><p>来自德国，高端纸巾品牌，被称为“纸中爱马仕”。<br>100%原生纸浆是很大的优势，毕竟“纯木浆”可能含有回收的木浆纸。</p>
+<h4 id="4层加厚"><a href="#4层加厚" class="headerlink" title="4层加厚"></a>4层加厚</h4><p>纸特别厚实，可以当写字的纸用了。特别有韧性，不用力根本扯不动。真的做到了“禁拉又禁拽，禁蹬又禁踹”，韧性无出其右。<br>湿了水也依旧非常结实，不会破，不掉屑，特别适合洗完脸用来擦干。而且湿水之后滑滑的，完全不划脸。<br>毛巾可能有细菌，除非一天一消毒；而抽纸是一次性的，保证卫生才不会起痘痘。用来代替棉柔巾擦脸，完全不会出现纸张破损、掉屑的情况。<br>柔软度较差，并不适合拿来擦鼻涕使用。有点太厚了，擦脸用一张不够，用两张浪费，所以一天半就用完了，性价比不高。</p>
+<h4 id="Mini系列"><a href="#Mini系列" class="headerlink" title="Mini系列"></a>Mini系列</h4><p>均衡全能选手，强韧水平比其他抽纸高好几个档次，虽然没有乳霜纸没那么滑，但已经是非乳霜纸里柔软度的优秀选手了。</p>
+<h4 id="Artist系列茉莉小姐"><a href="#Artist系列茉莉小姐" class="headerlink" title="Artist系列茉莉小姐"></a>Artist系列茉莉小姐</h4><p>吸水性、干强度、湿强度都强，柔软度稍差。</p>
+<h4 id="儿童软抽纸巾"><a href="#儿童软抽纸巾" class="headerlink" title="儿童软抽纸巾"></a>儿童软抽纸巾</h4><p>超强韧特性，不沾不破，结实耐用，比普通款更为柔软，纸质细腻绵软又厚实，满足所有日常用纸需求。<br>100%原生木浆，没有额外添加成分、天然无味、安全放心。</p>
+<h4 id="桃香味"><a href="#桃香味" class="headerlink" title="桃香味"></a>桃香味</h4><p>四个香型个个经典，茉莉香和樱花香味道也都很好闻。浅桃香味基调是微甜的焦糖，清新的绿意和带点异域风情的桃子香味相继展开。</p>
+<h4 id="樱花味"><a href="#樱花味" class="headerlink" title="樱花味"></a>樱花味</h4><p>纸张大，吸水性、强度出类拔萃，但樱花味比较浓重。</p>
+<h3 id="舒洁（Kleenex）"><a href="#舒洁（Kleenex）" class="headerlink" title="舒洁（Kleenex）"></a>舒洁（Kleenex）</h3><p>舒洁是拥有近百年历史的美国老牌。美国进口原生木浆，经过FSC认证，不使用热带雨林资源及濒危树种。</p>
+<h4 id="马蹄莲盒纸"><a href="#马蹄莲盒纸" class="headerlink" title="马蹄莲盒纸"></a>马蹄莲盒纸</h4><p>独家Ultra Soft 加柔配方，细且短的木质纤维占比比较高，整体纤维结构蓬松，手感柔软顺滑，接触皮肤也不会有强烈的摩擦感。</p>
+<h4 id="弱酸性纸巾"><a href="#弱酸性纸巾" class="headerlink" title="弱酸性纸巾"></a>弱酸性纸巾</h4><p>主打温和、保湿、柔软特性，ph为5.5左右，适应人体酸碱度的一款弱酸性抽纸，经过超高温处理安全卫生。<br>纸质天然洁白，添加湿强剂，吸水性好，擦拭时沾水不易破裂。其中长纤维比例高，纸质更强韧，加入的柔软纤维，使纸巾韧而不硬。<br>14元&#x2F;盒，每盒180抽。</p>
+<h4 id="小熊印花迷你纸巾"><a href="#小熊印花迷你纸巾" class="headerlink" title="小熊印花迷你纸巾"></a>小熊印花迷你纸巾</h4><p>Ultrasoft工艺把精纯原木浆膨润、丝化后，变身为丝韧纤维，如水般柔软。</p>
+<h3 id="清风"><a href="#清风" class="headerlink" title="清风"></a>清风</h3><p>纸品届的老大哥品牌。于1998年在中国创立，致力于生产高品质生活用纸。<br>秉承“你用纸，我种树，实践绿色大循环”的原则下，种六棵树，用一棵树，维护大自然的生态平衡，都说造纸行业有污染，清风的这种原则真如造纸届一股清流。<br>早在2004年，清风就被评为年度中国生活用纸质量信得过产品，曾登陆过中国top50快销品牌之一。<br>采用100%原生木浆制纸，纯净的木质纤维，纸质细腻柔软，使肌肤倍感舒适。<br>无荧光剂、无刺激，纯洁干净，细菌含量小于国家检测标准10倍。荣获ISO900认证，使用更加安心。</p>
+<h4 id="原色"><a href="#原色" class="headerlink" title="原色"></a>原色</h4><p>食品级抑菌，母婴适用，可以直接接触手口。<br>采用了蓬厚纤维交织工艺，湿水后的柔韧性、柔软程度也都很ok。可以被完全降解，对环境无伤害。</p>
+<h4 id="黑金柔韧"><a href="#黑金柔韧" class="headerlink" title="黑金柔韧"></a>黑金柔韧</h4><p>强度堪比得宝，柔软度欠佳，价格便宜。</p>
+<h2 id="别买"><a href="#别买" class="headerlink" title="别买"></a>别买</h2><h3 id="清风-原木纯品抽纸"><a href="#清风-原木纯品抽纸" class="headerlink" title="清风 原木纯品抽纸"></a>清风 原木纯品抽纸</h3><p>单张纸非常薄，轻轻一扯就烂了，纸质也粗糙。真的好难用，蘸水来擦灰直接就破了，只能在干燥情况下擦污渍，擦擦桌子的灰。<br>很便宜，性价比挺高，所以不能要求那么多。如果用来擦脸的话这个纸就糙了点，但是用来擦鞋擦桌子是不心疼的。<br>不易燃烧，同时残留物中黑色固体较多，不得不担心这款抽纸中到底含了多少非原生纤维，这些非原生纤维是否会损害健康也尚未可知。</p>
+<h2 id="原材料"><a href="#原材料" class="headerlink" title="原材料"></a>原材料</h2><p>抽纸质量等级分为优等品、一等品和合格品三个档次，档次在外包装上会有标注，<strong>优等品最好</strong>、一等品第二、合格品排最后，比着优等品购买，一般都不会买错。</p>
+<ul>
+<li><strong>100%原生木浆</strong>：指经过提纯的非回收、没有使用过的纯净木浆，强调没有添加其他纤维浆料。由木材经过萃取纤维后制成，无添加、不易致敏。</li>
+<li><strong>原生木浆</strong>：指经过提纯的非回收、没有使用过的木浆。由木材经过萃取纤维后制成，原材料合格可靠。</li>
+<li><strong>木浆</strong>：没有“原生”二字，不能够保证原材料是非回收、未经使用过得木浆。国标GBT 20808-2011规定，抽纸不得使用任何回收纸、纸张印刷品、纸制品及其他回收纤维状物质作为原料。</li>
+<li><strong>竹浆</strong>：纸浆原生纤维原料的一种，由竹子经加工后制成，材质相对较硬。由于竹子生长周期比树木短，竹浆制成的抽纸，取料相对环保。</li>
+<li><strong>桔梗原生浆</strong>：草浆的一种，用未使用过的成熟农作物的茎（如麦秆）经加工后制成。桔梗原生浆、草浆制成的抽纸，成本更低，售价相对也便宜一些。</li>
+</ul>
+<h2 id="竹浆本色"><a href="#竹浆本色" class="headerlink" title="竹浆本色"></a>竹浆本色</h2><p>利用竹浆单独或与木浆、草浆合理配比，通过一系列工序生产出来的纸，它的颜色自然就是竹子加工后呈现出的黄色。原料中含有的竹醌具有抑菌、杀菌的特性。<br>这类纸吸水性和韧性比木浆纸好；原料竹子的生长周期比木材短很多，所以也更环保。性价比可能没法跟传统的木浆纸媲美。</p>
+<h3 id="斑布本色"><a href="#斑布本色" class="headerlink" title="斑布本色"></a>斑布本色</h3><p>达到了食品级安全等级，可以拿来直接包裹零食、水果。获得了FSC国际森林体系认证，用生长60天的竹子代替20年以上的树木。</p>
+<h3 id="无染wuro-本色抽纸"><a href="#无染wuro-本色抽纸" class="headerlink" title="无染wuro 本色抽纸"></a>无染wuro 本色抽纸</h3><p>吸水性优秀，又大又厚，擦桌子满分。<br>纯度只有2分，虽然有杂质，但作为竹浆纸可接受。<br>价格跟得宝差不多。</p>
+<h2 id="韧性"><a href="#韧性" class="headerlink" title="韧性"></a>韧性</h2><h3 id="竹态象牙白"><a href="#竹态象牙白" class="headerlink" title="竹态象牙白"></a>竹态象牙白</h3><p>北纬30度川贵竹源地的有机竹林，选用生长2年以上的竹子，它们纤维长、韧性更好。采用多端逆流洗涤工艺，物理提纯竹纤维。<br>韧性强度提高了3倍，湿水韧性提升了4倍。</p>
+<h3 id="舒芽阳光"><a href="#舒芽阳光" class="headerlink" title="舒芽阳光"></a>舒芽阳光</h3><p>虽然单张纸巾只有三层，但够柔韧、吸水性也好，平时出门带着也是妥妥够用了。</p>
+<h2 id="吸收性"><a href="#吸收性" class="headerlink" title="吸收性"></a>吸收性</h2><h3 id="京东京造-虎年限定款"><a href="#京东京造-虎年限定款" class="headerlink" title="京东京造 虎年限定款"></a>京东京造 虎年限定款</h3><p>厚实且强韧，吸水性和干强度都很好，柔软度擦健康鼻子和嘴无问题，但纯度低。<br>价格相对便宜，0.023&#x2F;张，擦桌子不心疼。</p>
+<h3 id="品诺-PINO-黑白系列"><a href="#品诺-PINO-黑白系列" class="headerlink" title="品诺 PINO 黑白系列"></a>品诺 PINO 黑白系列</h3><p>吸收性好，饭后用来擦去嘴角残留的汤汁、油渍，几下就能擦干净。<br>软硬适中的抽纸，质感柔软不粗糙，揉搓也没发现什么飞絮。<br>价格实惠亲民，用起来不心疼。</p>
+<h3 id="五月花-May-Flower-特级柔厚"><a href="#五月花-May-Flower-特级柔厚" class="headerlink" title="五月花 May Flower 特级柔厚"></a>五月花 May Flower 特级柔厚</h3><p>纸质厚实柔韧，皮肤接触没有粗糙感，手感比较厚实光滑，不会有涩涩的扎皮肤的感觉。<br>十分扎实，不破不粘，干干净净。擤鼻涕也不会被弄破，沾水也不会轻易破掉。<br>纸张尺寸够大，几抽就能完成清理、省事好用。</p>
+<h2 id="柔软"><a href="#柔软" class="headerlink" title="柔软"></a>柔软</h2><h3 id="大王elleair"><a href="#大王elleair" class="headerlink" title="大王elleair"></a>大王elleair</h3><p>添加了保湿成分、手感柔软，水润润的，把柔软亲肤做得相当出色，即便在过敏&amp;感冒这种长时间用纸的情况下，算擦很久也不会擦红鼻子。<br>握在手里像是捧着一朵云，韧性较低，一捅就破，虽然不太成形，但擤鼻涕时一般也不会破损，更没有一般纸巾的粗糙感。<br>价格不美好，0.162&#x2F;抽。</p>
+<h3 id="妮飘Nepia鼻贵族"><a href="#妮飘Nepia鼻贵族" class="headerlink" title="妮飘Nepia鼻贵族"></a>妮飘Nepia鼻贵族</h3><p>细腻如同被纤细的手指划过，红鼻子现象没有再出现，不过坚韧性和吸水性确实要差一些。<br>纸巾中含有甘油和山梨糖醇两种保湿成分，能有效的滋润鼻部皮肤。<br>无色、无味、无荧光剂、无掉纸屑，材料天然且皆为可降解性环保材质。创造了日本亚马逊纸巾品类的销售神话。</p>
+<h3 id="慕逸适Moist婴幼儿纸巾"><a href="#慕逸适Moist婴幼儿纸巾" class="headerlink" title="慕逸适Moist婴幼儿纸巾"></a>慕逸适Moist婴幼儿纸巾</h3><p>介于干纸巾和湿纸巾之间的一种手感，平滑柔软中带有微微的湿润感，很润很柔，使劲擦也不会有纸巾摩擦皮肤的不适感，但韧性相对较弱。<br>100%加拿大进口木浆 + 保湿因子 + 抗菌因子，材质自然环保，同时增加了天然抗菌成分，对脆弱的baby肌具有初级的保护、消毒作用，同样适用于伤口的清洁。<br>28元&#x2F;盒，每盒180抽，在日本进口货中算是经济实用。</p>
+<h3 id="Scottie-羊绒纸巾"><a href="#Scottie-羊绒纸巾" class="headerlink" title="Scottie 羊绒纸巾"></a>Scottie 羊绒纸巾</h3><p>日本制纸Crecia股份公司，是日本第二大造纸企业日本制纸的全资子公司，于1963年在日本东京成立。<br>凭借在个性化纸巾与高品质纸尿布的明星产品线的建立，「纸业帝国」的版图开始扩大到世界范围，成为全球化的知名纸品企业。</p>
+<p>针叶林+阔叶林 混合原生木浆，植物纤维更丰富，确保纸巾「喝足水」后的含水量，以及优于一般纸品的拉扯韧度。<br>亲肤效果如同揉搓软糯的羊绒一般，遇水后的柔韧性相当强大，不会出现擦拭未完，纸巾被扯破的情况，基本可以满足清洁、护肤、卸妆等需求。<br>50元&#x2F;盒，一盒80抽，2层&#x2F;抽，每日洁面后使用1-2抽，基本上两周就用完了，确实比较废，价位稍高。<br>未沾水的情况下，抽取使用时会有纸屑掉渣情况的发生，但遇水后不会出现类似问题。</p>
+<h3 id="ch22花瓣纸"><a href="#ch22花瓣纸" class="headerlink" title="ch22花瓣纸"></a>ch22花瓣纸</h3><p>加拿大进口原生木浆，摸起来比较薄，其实有三层，压合非常紧密。<br>成分中添加了乳霜保湿成分，摸起来丝滑绵柔，表面非常细腻光滑。专为敏感肌设计，无色无味，没有纸屑。</p>
+<h3 id="babycare婴儿云柔巾"><a href="#babycare婴儿云柔巾" class="headerlink" title="babycare婴儿云柔巾"></a>babycare婴儿云柔巾</h3><p>加入了含有保湿成分的进口乳霜，润而不湿，放开了擦也不会伤皮肤。</p>
+<h3 id="好孩子婴儿面巾纸"><a href="#好孩子婴儿面巾纸" class="headerlink" title="好孩子婴儿面巾纸"></a>好孩子婴儿面巾纸</h3><p>非常柔软细腻，但有点容易破。主要成分为木浆（注意，非百分百），日本进口保湿液。擦起皮肤来没有那么干，有种柔润的感觉。<br>层数只有3层，木浆具体成分不知道可不可信，柔润保湿这方面有点像仿大王的那款保湿纸面巾，但价格很便宜。</p>
+<h3 id="怡恩贝-婴儿云柔巾"><a href="#怡恩贝-婴儿云柔巾" class="headerlink" title="怡恩贝 婴儿云柔巾"></a>怡恩贝 婴儿云柔巾</h3><p>纸张柔软，各项指标都比较均衡。纯度高，婴儿用放心，有乳霜和海洋水添加成分。<br>缺点是纸张略小、略薄。价格跟得宝差不多。</p>
+<h3 id="网易严选-富士山水保湿抽纸"><a href="#网易严选-富士山水保湿抽纸" class="headerlink" title="网易严选 富士山水保湿抽纸"></a>网易严选 富士山水保湿抽纸</h3><p>触感很柔，感冒鼻子不舒服、或者雾霾时，用这个擦很多次，也不会觉得鼻子疼。含甘油、乳木果油等保湿成分，提供最温柔的呵护。<br>唯一的缺点就是太薄了，出色的柔软度，是以牺牲韧性为代价的。如果用来擦手，而且手上的汗稍微大点时，就容易破。</p>
+<h2 id="便宜"><a href="#便宜" class="headerlink" title="便宜"></a>便宜</h2><h3 id="植护三色压花"><a href="#植护三色压花" class="headerlink" title="植护三色压花"></a>植护三色压花</h3><p>7毛钱一包的价格</p>
+<h3 id="漫花"><a href="#漫花" class="headerlink" title="漫花"></a>漫花</h3><p>也只要1块钱左右一包</p>
+<blockquote>
+<p><strong>来源：</strong><br><a target="_blank" rel="noopener" href="https://www.zhihu.com/column/diaox2">@有调 </a>：<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/20729146">我们用了8000张抽纸，只为了让你买到称心的那一盒 </a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/490465746">抽纸评测｜105+32&#x3D;128款，强韧、流涕、环保选择各不同</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/27665623">哪种抽纸比较好? - 知乎</a><br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/zhong-liang-biao">@风来了又走</a>：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/395813766">抽纸什么牌子好？抽纸推荐&#x2F;测评</a></p>
+</blockquote>
+
+  </div>
+  <div id="gitalk-container"></div>
+</div>
+
+<script>
+  
+Fancybox.bind('[data-fancybox="fancybox-gallery-img"]', {
+  dragToClose: true,
+  Toolbar: true,
+  closeButton: "top",
+  Image: {
+    zoom: true,
+  },
+  on: {
+    initCarousel: (fancybox) => {
+      const slide = fancybox.Carousel.slides[fancybox.Carousel.page];
+      fancybox.$container.style.setProperty(
+        "--bg-image",
+        `url("${slide.$thumb.src}")`
+      );
+    },
+    "Carousel.change": (fancybox, carousel, to, from) => {
+      const slide = carousel.slides[to];
+      fancybox.$container.style.setProperty(
+        "--bg-image",
+        `url("${slide.$thumb.src}")`
+      );
+    },
+  },
+});
+</script>
+
+<style>
+    #noneimg img {
+        display: none;
+        z-index: 9999;
+        width: 300px !important; 
+        min-width: 0%;
+        max-width: 70%;
+        max-height: 80%;
+        border-radius: 0px;
+        position: fixed;
+        box-shadow: 0 0 0px #c3c3c300 !important;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto !important;
+    }
+
+    @media screen and (max-width:600px) {
+        #noneimg img {
+            max-width: 88%
+        }
+    }
+</style>
+
+    <div class="post-paging">
+    
+    <a href="/2022-12-16/%E6%B8%85%E6%B4%81/%E5%8D%B7%E7%BA%B8/">
+        <div class="post-paging-last">
+            <span>上一篇</span>
+            <p>卷纸</p>
+        </div>
+    </a>
+    
+
+    
+    <a href="/2022-07-14/%E6%B8%85%E6%B4%81/%E5%8D%AB%E7%94%9F%E6%B9%BF%E5%B7%BE/">
+        <div class="post-paging-next">
+            <span>下一篇</span>
+            <p>卫生湿巾</p>
+        </div>
+    </a>
+    
+</div>
+</div>
+		
+<div class="footer">
+	<div class="Copyright">
+		©2024 By Sophie Eden. 主题：<a
+			style="text-decoration: none;display: contents; color: #898F9F;"
+			target="_blank" rel="noopener" href="https://github.com/79e/hexo-theme-quiet">Quiet</a>
+	</div>
+	<div class="contact">
+		
+		<a target="_blank" rel="noopener" href="http://city.sophie-eden.ltd/">
+			<img src="https://goods.sophie-eden.ltd/img/gate/city.jpg" alt="Quiet主题">
+		</a>
+		
+	</div>
+</div>
+
+<script src="/js/gotop.js"></script>
+
+
+<style type="text/css">
+    @media screen and (min-width: 600px) {
+        .goTop>span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            opacity: 0.8;
+            background: rgba(18, 24, 58, 0.06);
+            text-align: center;
+            transition: border .5s;
+            border: 1px solid rgba(18, 24, 58, 0.06);
+
+            -moz-transition: border .5s;
+            /* Firefox 4 */
+            -webkit-transition: border .5s;
+            /* Safari 和 Chrome */
+            -o-transition: border .5s;
+            /* Opera */
+        }
+
+        .goTop>span:hover {
+            border: 1px solid #6680B3;
+        }
+
+
+        .goTop {
+            position: fixed;
+            right: 30px;
+            bottom: 80px;
+        }
+
+        .goTop>span>svg {
+            width: 20px;
+            height: 20px;
+            opacity: 0.7;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+        .goTop {
+            display: none;
+        }
+    }
+</style>
+<div class="goTop" id="js-go_top">
+    <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <g>
+                <path d="M13 12v8h-2v-8H4l8-8 8 8z"></path>
+            </g>
+        </svg>
+    </span>
+</div>
+<script>
+    $( '#js-go_top' )
+	.gotoTop( {
+		offset: 500,
+		speed: 300,
+		animationShow: {
+			'transform': 'translate(0,0)',
+			'transition': 'transform .5s ease-in-out'
+		},
+		animationHide: {
+			'transform': 'translate(100px,0)',
+			'transition': 'transform .5s ease-in-out'
+		}
+	} );
+</script>
+
+
+    <!-- Gitalk -->
+    <script>
+        const data = '{"clientID":"65f5a9a1ae635a66fc99","clientSecret":"543e72b1950cdc1b817b3b81fb45f4ac2d442b90","repo":"talks","owner":"yamaeye","admin":"yamaeye"}'
+        const gitalk = new Gitalk({
+            ...JSON.parse( data),
+            id:location.pathname,
+            distractionFreeMode:false
+        })
+        
+        if(Boolean('true')){
+            gitalk.render('gitalk-container')
+        }
+    </script>
+
+<script>
+	console.log('\n %c Hexo-Quiet 主题 %c https://github.com/79e/hexo-theme-quiet \n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;')
+</script>
+	</body>
+</html>
+
