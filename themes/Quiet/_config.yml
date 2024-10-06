@@ -1,0 +1,114 @@
+# 网站标题
+title: 珍珑百宝
+# 网站标题后缀
+suffix: 不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫
+# 作者名称
+author: Sophie Eden
+# 网站关键字
+keyword: 推荐,商品,导购
+#false是否开启文章背景图显示(随机图片)
+is_article_img: true  
+# 网站描述
+web_description: 不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫
+# 首页文章布局 默认 'card' 可选择 'block-card'
+home_layout: card
+# 导航名称
+menus_title:
+  home: 珍珑百宝
+  foods: 饮食
+  daily: 日用
+  # technology: 科技
+  categories: 分类
+  archive: 归档
+  tags: 标签
+  links: 传送门
+#  about: 关于
+# 导航 （不建议修改）
+menus:
+  home: https://goods.sophie-eden.ltd/
+  foods: https://goods.sophie-eden.ltd/tags/饮食
+  daily: https://goods.sophie-eden.ltd/tags/日用
+  # technology: /categories/科技
+  categories: https://goods.sophie-eden.ltd/categories/
+  tags: https://goods.sophie-eden.ltd/tags
+  archive: https://goods.sophie-eden.ltd/archives
+  links: https://goods.sophie-eden.ltd/links
+#  about: /about
+  
+# logo
+logo: https://goods.sophie-eden.ltd/img/logo.jpg
+# 网页标签上那个小图标 一定要用本地存储
+icon: https://goods.sophie-eden.ltd/img/favicon.ico
+# 每个页面的展示的图标和一句话
+headers:
+    home: {
+      message: "不确定之物的终点站·聆听万物之声·资讯统合思念体·薛定谔的猫",
+      icon: "https://goods.sophie-eden.ltd/img/logo.jpg"
+    }
+    archives: {
+      # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
+      message: "历经 year 年写了 number 篇文章",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
+    }
+    tags: {
+      message: "标签",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
+    }
+    links: {
+      message: "传送门",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
+    }
+    categories: {
+      message: "文章分类",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
+    }
+
+# 网页访问统计
+web_analytics:  
+  enable: false #需要改为true
+  baidu: 4b5fe1472f22fadsfs  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
+# 评论 
+gitalk:
+  clientID: 65f5a9a1ae635a66fc99 # （需要替换）GitHub Application Client ID.
+  clientSecret: 543e72b1950cdc1b817b3b81fb45f4ac2d442b90 #（需要替换）GitHub Application Client Secret.
+  repo: talks #（需要替换）GitHub repository.
+  owner: yamaeye #（需要替换）GitHub repository 所有者，可以是个人或者组织。
+  admin: ['yamaeye'] #（需要替换）GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+
+# 底部显示的图标（github 或者其他）
+bottomIcon: 
+  #可以多个
+  - {
+    #描述名称
+    name: '阵营入口',
+    #图标    
+    iconLink: 'https://goods.sophie-eden.ltd/img/gate/city.jpg',
+    #跳转链接    
+    toUrl: 'http://city.sophie-eden.ltd/'
+  }
+
+# 友情链接
+linksList:
+  - {
+    title: 'Sophie Eden Wiki',
+    intro: 'wiki',
+    link: 'http://wiki.sophie-eden.ltd/',
+    image: 'https://goods.sophie-eden.ltd/img/gate/wiki.jpg'
+  }
+  - {
+    title: '幻术同盟',
+    intro: 'picture',
+    link: 'https://picture.sophie-eden.ltd/',
+    image: 'https://goods.sophie-eden.ltd/img/gate/picture.jpg'
+  }
+  - {
+    title: '时空回廊',
+    intro: 'newspaper',
+    link: 'http://times.sophie-eden.ltd/',
+    image: 'https://goods.sophie-eden.ltd/img/gate/newspaper.jpg'
+  }
+
+# 默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
+# https://api.ixiaowai.cn/gqapi/gqapi.php
+# https://tuapi.eees.cc/api.php?type=302&category=fengjing
+default_cover: https://api.likepoems.com/img/mc/
