@@ -113,4 +113,4 @@ linksList:
 # 默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
 # https://api.ixiaowai.cn/gqapi/gqapi.php
 # https://tuapi.eees.cc/api.php?type=302&category=fengjing
-default_cover: https://api.likepoems.com/img/mc/
+default_cover: https://api.likepoems.com/img/mc/?json
