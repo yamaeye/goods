@@ -17,6 +17,7 @@ menus_title:
   home: 珍珑百宝
   foods: 饮食
   daily: 日用
+  comment: 点评
   # technology: 科技
   categories: 分类
   archive: 归档
@@ -28,6 +29,7 @@ menus:
   home: https://goods.sophie-eden.ltd/
   foods: https://goods.sophie-eden.ltd/tags/饮食
   daily: https://goods.sophie-eden.ltd/tags/日用
+  comment: https://goods.sophie-eden.ltd/tags/点评
   # technology: /categories/科技
   categories: https://goods.sophie-eden.ltd/categories/
   tags: https://goods.sophie-eden.ltd/tags
